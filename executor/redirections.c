@@ -201,13 +201,13 @@ int handle_output_redirection(t_command_line **cmd)
 
 int redirections_fd(t_command_line **cmd)
 {
-    t_command_line *tmp;
-    tmp = *cmd;
+    t_command_line **tmp;
+    tmp = cmd;
 
-    handle_output_redirection(&tmp);
+    handle_output_redirection(tmp);
 
-    /* tmp = *cmd;
-    handle_input_redirection(&tmp); */
+    //tmp = *cmd;
+    handle_input_redirection(tmp);
 
     return (0);
 }

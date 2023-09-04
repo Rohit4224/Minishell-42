@@ -1,3 +1,5 @@
+
+
 # Minishell
 To create the "minishell" program, you will need to implement a shell that follows the provided requirements. Here's a step-by-step guide to help you get started:
 
@@ -37,3 +39,8 @@ To create the "minishell" program, you will need to implement a shell that follo
    - While the `readline` function may cause memory leaks, make sure that your own code does not have memory leaks. Free any dynamically allocated memory appropriately.
 
 Remember to thoroughly test your shell to ensure it meets all the requirements and behaves as expected. Good luck with your project!
+
+
+https://github.com/Rohit4224/Minishell-42/assets/124201447/923866e3-ff23-4904-8563-e6f2a3bedffe
+
+
